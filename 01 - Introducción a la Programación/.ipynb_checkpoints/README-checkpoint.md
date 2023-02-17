@@ -9,15 +9,15 @@ En la imagen, se representa un pequeño robot abeja en una esquina del cuadrilá
 Ahora bien, surgen algunas preguntas:
 
 * ¿Cuántas instrucciones son necesarias?
-
+    Las que hagan falta
 * Al ser más de una instrucción ¿Es importante el orden en que se ejecutan?
-
+    Si es muy importante el orden porque se ejecutan en cascada
 * ¿Hay más de una forma, en que el robot abeja pueda llegar a la flor?
-
+    Si
 * ¿Hay un camino más óptimo?
-
+    Puede ser 
 * ¿Cómo puedo medir si un camino es más óptimo que otro?
-
+    Es mas ópyimo si tiene menos pasos que seguir
 ![unaImagenConBoxShadow](../_src/assets/01_imagen01.jpg)
 
 Cualquiera de las siguiente, podrían ser una solución:

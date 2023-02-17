@@ -1,6 +1,10 @@
 class Herramientas:
-    def __init__(self, lista_numeros):
-        self.lista = lista_numeros
+    def __init__(self, lista_numeros:list):
+        if type(lista_numeros) != list:
+            self.lista = []
+            raise ValueError("No se encontró la lista esperada")
+        else:
+            self.lista = lista_numeros
 
     def verifica_primo(self):
         '''
